@@ -20,7 +20,7 @@
     "code": "tsc -w",
     "build": "rm -fr dist/*; tsc",
     "test": "jest dist/test.js",
-    "prepublishOnly": "npm run build",
+    "prepare": "npm run build",
     "ncu": "ncu --target minor --upgrade"
   },
   "author": "Sun Knudsen <hello@sunknudsen.com>",

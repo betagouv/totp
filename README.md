@@ -5,7 +5,7 @@
 ## Installation
 
 ```console
-$ npm install @sunknudsen/totp
+$ npm install betagouv/totp#tmp-use-prepare
 ```
 
 ## Usage
